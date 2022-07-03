@@ -1,0 +1,165 @@
+body, html{
+	width: 100%;
+	background-color: #415a77;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.topnav-centered{
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	text-align: center;
+	background-color: #1b263b;	
+	margin-top: 0px;
+	width: 100%;
+	margin-bottom: 20px;
+	display: grid;    
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	gap: 20px;
+}
+
+.topnav-centered h1 {
+	background-color: #1b263b;	
+	color:white;
+	height: 100%;
+	vertical-align: middle;
+	font-size: 60px;
+	grid-column: 2;
+	text-align: left;
+}
+
+.topnav-centered img{
+	vertical-align: middle;
+	text-align: center;
+	width: 180px;
+	grid-column: 1;
+ 	float: none;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.formulario{
+	color: white;
+	margin-left: 42%;
+	margin-right: 42%;
+	margin-top: 10%;
+	font-size: 20px;
+}
+
+input{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+button{
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.navbar {
+  background-color: #1b263b;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #415a77;
+  color: white;
+}
+
+.enlaces{
+	margin-left: 40%;
+}
+
+.errorRegistro{
+	margin-top: 15%;
+	text-align: center;	
+}
+
+.errorRegistro p{
+	font-size: 40px;	
+	color: white;
+}
+
+.errorRegistro a{
+	padding: 10px 10px 10px 10px;
+	font-size: 30px;
+	background-color: #1b263b;
+	color: white;
+}
+
+.errorRegistro a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+.servicio_activo{
+    background-color: #5cb85c;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.servicio_inactivo{
+    background-color: #c90000;
+    color:#fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.servicios{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center !important;
+}
+
+.elemento{
+    border:1px solid;
+    margin:10px;
+}
+
+#contenido{
+	margin-left:25%;
+	margin-right:25%;
+	text-align: justify;
+}
+
+#acciones{
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 30%;
+}
+
+#acciones a{
+	padding: 10px 10px 10px 10px;
+	font-size: 60px;
+	background-color: #1b263b;
+	color: white;
+}
+
+#acciones a:hover{
+	background-color: #ddd;
+	color: black;
+}

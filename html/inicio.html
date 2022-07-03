@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TrueSight</title>
+</head>
+<style>
+
+</style>
+<body>
+
+	<div class="topnav-centered">
+		<img src="./img/logo.png"/>
+		<h1>TrueSight</h1>
+  	</div>
+
+    <div class="navbar">
+		<div class="enlaces">
+       		<a href="index.html">Inicio</a>
+       		<a class="active">Login</a>
+       		<a href="registro.html">Registro</a>
+		<a method="POST" href="/cgi-bin/monitor.cgi">Recursos</a>
+		</div>
+    </div>
+
+    <form class="pure-form" method="POST" action="/cgi-bin/inicio.cgi">
+        <fieldset class="formulario">
+            <input  name="usr" placeholder="Nombre de usuario" />
+            <input  name="passw" placeholder="Contraseña" />
+            <br>
+            <button type="submit" class="pure-button pure-button-primary">Entrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
